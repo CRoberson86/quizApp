@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Black History Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="float-grid.css"/>
+    
+</head>
+<body>
+    <header role="banner">
+        <h1>
+            Black History Quiz
+        </h1>
+    </header> 
+    <aside aria-live="polite" role="complementary">
+        <p>Question <span class="current-question-number">0</span> of 7</p>
+        <p>Score: <span class="score">1</span></p>
+    </aside>
+    <main aria-live="polite" role="main">
+        <section role="region" class="question">
+            <h2>
+                Current Question Place holder 
+            </h2>
+            <form>
+                <div>
+                    <input id="answer-0" type="radio" value="0" name="answer" required>
+                    <label for="answer-0">this is an answer</label> 
+                </div>
+                <div>
+                    <input id="answer-1" type="radio" value="1" name="answer">
+                    <label for="answer-1">this is an answer</label> 
+                </div>
+                <div>
+                    <input id="answer-2" type="radio" value="2" name="answer">
+                    <label for="answer-2">this is an answer</label> 
+                </div>
+                <div>
+                    <input id="answer-3" type="radio" value="3" name="answer">
+                    <label for="answer-3">this is an answer</label> 
+                </div>
+                    <!-- <button id="back-button" class="button" type="button">Back</button> -->
+                    <button id="submit-button" class="button"type="submit">Submit Answer</button>    
+            </form>
+        </section>
+        <section role="region" class="correct" class=".col-6">
+            <h2>You got it!</h2>
+            <img src="" alt="person lifting awards">
+            <button id="next-button" class="button" type="submit">Next Question</button>
+        </section>
+        <section role="region" class="incorrect">
+            <h2>You didn't get it</h2>
+            <img src="" alt="person looking away in shame">
+            <p>The correct answer was</p>
+            <p class="correct-answer"></p>
+            <button id="next-button" class="button" type="submit">Next Question</button>
+        </section> 
+        <section role="region" class="welcome-page">
+            <h2>Ready to see if you know about black Folk?</h2>
+            <button id="start-button">start</button>
+        </section>
+        <section role="region" class="final-results">
+            <h2>Thank you for taking our Black History Quiz</h2>
+            <img src="" alt="person lifting awards">
+            <p>You got 0 out of 7</p>
+            <p>No matter how you did you can always retake the quiz. We appricaite your for perticipation</p>
+            <button id="restart-quiz">Restart Quiz</button>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="store.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

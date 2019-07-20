@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Metrophobic', sans-serif;
+  background-color:rgb(70, 111, 168);
+  color: #363946;
+}
+/*header styling*/
+
+header {
+  width: 100%;
+  padding: 30px 0;
+  color: #ffffff;
+  font-size: 20px;
+}
+aside p {
+  display:inline;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 20px;
+}
+input {
+  position:fixed;opacity:0;
+  width: 50%;
+  background-color: #ffffff;
+}
+#quizForm{
+  width: 80%;
+  margin-bottom: 100px;
+}
+.radioQuestion{
+  display: block;
+  background-color: black;
+  width: 400px;
+  height: 20px;
+  
+}
+.radioQuestion:hover{
+  background-color: aqua;
+} 
+
+.question{
+  width: 100%;
+  padding: 30px 0;
+  color: #ffffff;
+  font-size: 20px;
+}
+.correct-answer{
+  width: 100%;
+  padding: 30px 0;
+  color: #ffffff;
+  font-size: 20px;
+}
+p{
+  width: 100%;
+  padding: 30px 0;
+  color: #ffffff;
+  font-size: 20px; 
+}
+/* cant tell how to give the question input fields shap and other atributes  */
+   
+button:hover{
+  background-color: black;
+  border-color: green;
+  color: red;  
+  border-width: 4px;
+
+}
+
+button{
+  display: block;
+  font-size: 25px;
+  border-radius: 5px;
+
+}
+#start-button{
+  width: 30%;
+  
+}
+section h2{
+  width: 100%;
+  padding: 30px 0;
+  color: #ffffff;
+  font-size: 20px;
+}
